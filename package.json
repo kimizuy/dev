@@ -1,5 +1,5 @@
 {
-  "name": "with-typescript",
+  "name": "kimizuy.dev",
   "version": "1.0.0",
   "scripts": {
     "dev": "next",
@@ -8,7 +8,7 @@
     "type-check": "tsc"
   },
   "dependencies": {
-    "next": "latest",
+    "next": "^9.5.3-canary.23",
     "react": "^16.12.0",
     "react-dom": "^16.12.0"
   },
@@ -18,6 +18,9 @@
     "@types/react-dom": "^16.9.4",
     "file-loader": "^6.0.0",
     "typescript": "^4.0.0"
+  },
+  "resolutions": {
+    "webpack": "^5.0.0-beta.28"
   },
   "license": "ISC"
 }
